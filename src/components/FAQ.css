@@ -1,0 +1,208 @@
+.faqs-sec-v2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5em 25px 0;
+  }
+  
+  .faqs-sec-v2 h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 322px;
+    margin: 0 auto;
+    color: #112D35;
+  }
+  
+  .image_as_circled {
+    background-image: url('https://cdn.inito.com/inito_website/rough_circle.png');
+    background-repeat: no-repeat;
+    background-size: 6.5em 3.1em;
+    background-position: -2.5px -5px;
+    padding: 1rem 1rem 1rem 0.5rem;
+  }
+  
+  .faqs-v2 {
+    max-width: 1024px;
+    width: 100%;
+    margin: 2em auto 4em auto;
+  }
+  
+  .faqs-v2 .column-1 {
+    margin-bottom: 1em;
+  }
+  
+  .faqs-v2 li {
+    margin: 0;
+    background: #F7F7FE;
+    border-radius: 24px;
+    padding: 1em;
+    margin-bottom: 1.4em;
+    list-style: none;
+  }
+  
+  .faqs-v2 li .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .faqs-v2 li .head h6 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 85%;
+    color: #112D35;
+    margin: 5px;
+  }
+  
+  .faqs-v2 li .head .img {
+    background: url("https://cdn.inito.com/inito_website/plus.png") no-repeat center;
+    background-size: contain;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  
+  .faqs-v2 li .body {
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .faqs-v2 li .body p {
+    padding: 10px 0;
+    text-size-adjust: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 85%;
+    color: #88969A;
+  }
+  
+  .faqs-v2 li.active .head .img {
+    background: url("https://cdn.inito.com/inito_website/minus.png") no-repeat center;
+    background-size: 17px auto;
+  }
+  
+  .faqs-v2 li.active .body {
+    max-height: 100vh;
+  }
+  
+  @media screen and (min-width: 375px) {
+    .faqs-sec-v2 h1 {
+      font-size: 30px;
+      line-height: 35px;
+      max-width: 350px;
+    }
+  }
+  
+  @media screen and (min-width: 451px) {
+    .faqs-sec-v2 {
+      margin-top: 3em;
+    }
+    .faqs-sec-v2 h1 {
+      font-size: 4.5vw;
+      line-height: 5.5vw;
+    }
+    .faqs-v2 li .head h6 {
+      font-size: 3.2vw;
+      line-height: 4.2vw;
+      margin: 5px;
+    }
+    .faqs-v2 li .body p {
+      font-size: 2.5vw;
+      line-height: 3.5vw;
+    }
+  }
+  
+  @media screen and (min-width: 651px) {
+    .faqs-sec-v2 {
+      align-items: center;
+    }
+    .faqs-sec-v2 h1 {
+      font-size: 4.5vw;
+      line-height: 5.5vw;
+      max-width: initial;
+    }
+    .faqs-v2 {
+      display: flex;
+    }
+    .faqs-v2 .column-1,
+    .faqs-v2 .column-2 {
+      width: 50%;
+    }
+    .faqs-v2 .column-1 {
+      margin-right: 1em;
+    }
+    .faqs-v2 li .head h6 {
+      font-size: 2.2vw;
+      line-height: 3.2vw;
+      margin: 5px;
+    }
+    .faqs-v2 li .body p {
+      font-size: 1.5vw;
+      line-height: 2.5vw;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+
+    .faqs-sec-v2 {
+      margin: 4em 4rem;
+    }
+    .faqs-sec-v2 h1 {
+      font-size: 3vw;
+      line-height: 4vw;
+    }
+    .faqs-v2 li .head h6 {
+      font-size: 2vw;
+      line-height: 3vw;
+      margin: 5px;
+    }
+    .faqs-v2 li .body p {
+      font-size: 1.3vw;
+      line-height: 2.3vw;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    .faqs-sec-v2 {
+      margin: 0em 0 2.3em;
+    }
+    .faqs-sec-v2 h1 {
+      max-width: 500px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 50px;
+      margin-bottom: 1em;
+    }
+    .faqs-v2 {
+      column-gap: 45px;
+    }
+    .faqs-v2 .column-1 {
+      margin-right: 0;
+    }
+    .faqs-v2 li {
+      padding: 1rem 1.4rem 1rem 30px;
+      margin-bottom: 0.8em;
+    }
+    .faqs-v2 li .head h6 {
+      font-size: 18px;
+      line-height: 27px;
+      width: 91%;
+      margin: 5px;
+    }
+    .faqs-v2 li .body p {
+      font-size: 15px;
+      line-height: 25px;
+      width: 91%;
+    }
+  }
+  @media (max-width: 768px) {
+    .faqs-v2 {
+      padding: 0px;
+    }}

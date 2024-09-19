@@ -1,0 +1,59 @@
+.promotion-section {
+    padding: 60px 0;
+  }
+  
+  .promotion-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .promotion, .makes-inito-different {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 45%;
+  }
+  
+  .promotion-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'monostrrat';
+  }
+  
+  .promotion-section .image_as_underline {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .promotion-section .underline-image {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+      .promotion, .makes-inito-different {
+        width: 100%;
+      }
+  }

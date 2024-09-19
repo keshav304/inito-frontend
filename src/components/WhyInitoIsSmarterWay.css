@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.why-measure-progesterone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 90px;
+}
+.why-measure-progesterone::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #E1F3FA;
+  z-index: 0;
+}
+
+.progesterone-content {
+  width: 90%;
+  max-width: 844px;
+  padding: 20px;
+  box-shadow: 7px 0 14px rgba(18, 45, 53, 0.12);
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+  text-align: left;
+}
+
+.blue-calendar {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 120px;
+}
+
+.why-measure-progesterone h6 {
+  font-weight: 700;
+  font-size: 15px;
+  color: #1F94AA;
+  margin-bottom: 0.5em;
+}
+
+.why-measure-progesterone p {
+  color: #666;
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 100%;
+}
+
+.doctor-review-source {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  color: #666;
+}
+
+.doctor-review-source .source {
+  font-size: 14px;
+  color: #999;
+}
+
+.doctor-review-source .quote {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.doctor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.doctor-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.doctor-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.doctor-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.doctor-qualification {
+  font-size: 14px;
+  color: #999;
+}
+
+.blue-background {
+  background-color: #E1F3FA;
+  padding: 40px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.blue-background h1 {
+  font-size: 36px;
+  line-height: 50px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  max-width: 540px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.left-card, .right-card {
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 4px 4px 14px rgba(18, 45, 53, 0.24);
+  max-width: 950px;
+  width: 100%;
+}
+.left-card .button {
+  display: none;
+}
+.left-card h1 img {
+  width: 28px;
+}
+.image_as_underline {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  position: relative;
+  background-image: url('../assests/curvy_underline.png');
+  display: inline-block;
+}
+
+.right-card {
+  flex-direction: row-reverse;
+}
+
+.text-content {
+  flex: 1;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 3.8rem;
+  margin-right: 2.9rem;
+}
+
+.text-content h1 {
+  width: 80%;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.text-content div {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  font-family: 'Montserrat';
+}
+
+.card-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.right-card .card-image img {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  border-radius: 26px;
+  background-color: #1F94AA;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 19px;
+  text-align: center;
+  border: none;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.5s;
+  width: 248px;
+  font-size: 16px;
+}
+
+.fertility-card-carousel {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.fertility-card-carousel img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-container {
+  margin-top: -80px;
+}
+.fertility-card-carousel {
+  position: relative;
+
+  top: 225px;
+  left: -275px;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  
+  .blue-background {
+    padding: 0;
+  }
+  .text-content {
+    padding: 40px;
+}
+
+  .blue-background > h1 {
+    display: none;
+}
+.left-card, .right-card {
+  background-color: unset;
+  border-radius: unset;
+  margin: unset;
+  display: block;
+  flex-direction: unset;
+  align-items: unset;
+  box-shadow: unset;
+  max-width: unset;
+  width: auto; 
+}
+
+  .left-card, .right-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .right-card {
+    background-color: #fff;
+  }
+  .left-card .button {
+    display: block;
+  }
+  .right-card .button {
+    display: none;
+  }
+
+  .text-content {
+    margin: 1.5rem;
+  }
+  .right-card .text-content {
+    padding: 40px 20px;
+
+  }
+  .right-card .text-content h1{
+    font-size: 23px;
+  }
+  .text-content h1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-align: left;
+    width: 100%;
+  }
+
+  .doctor-review-source {
+    align-items: center;
+    text-align: center;
+  }
+
+  .doctor-info {
+    align-items: center;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .fertility-card-carousel {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .slider-image {
+    width: 100%;
+  }
+  .blue-calendar {
+    display: none;
+  }
+  .text-content div {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: 'Montserrat';
+    text-align: left;
+}
+.left-card h1 img  {
+  display: none;
+}
+}
+
+@media (max-width: 480px) {
+.fertility-card-carousel {
+  top:650px;
+  left: 0;
+}
+  .progesterone-content {
+    padding: 20px;
+  }
+  .text-content {
+    margin: 1rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,153 @@
+.user-reviews {
+  padding: 60px 0;
+  margin: 0 auto;
+  max-width: 1064px;
+}
+
+.user-reviews .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #112D35;
+}
+
+.review-card {
+  background-color: #F7F7FD;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  height: 165px;
+  border-radius: 20px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.user-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info {
+  flex-grow: 1;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 5px;
+  color: #112D35;
+}
+
+.star-rating {
+  display: flex;
+  padding-top: 15px;
+  line-height: 25px;
+}
+
+
+.star {
+  width: 12px !important;
+  margin-right: 2px;
+}
+
+.review-text {
+  color: #000;
+
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.data-username {
+  margin-left: 40px;
+  margin-top: 15px;
+  color: #8F8F8F;
+  line-height: 25px;
+  display: block;
+  font-weight: 600;
+}
+
+
+.user-reviews .slick-slider {
+  width: 100% !important;
+}
+
+/* .user-reviews .slick-dots {
+  display: block !important;
+} */
+
+/* Slick slider custom styles */
+.user-reviews .slick-dots {
+  bottom: -30px;
+}
+
+.user-reviews .slick-dots li button:before {
+  font-size: 10px;
+  color: #1F94AA;
+}
+
+.user-reviews .slick-dots li.slick-active button:before {
+  color: #1F94AA;
+}
+
+.small-view-data-username {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .user-reviews {
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .review-card {
+    padding: 15px;
+    height: 330px;
+  }
+
+  .data-username {
+    display: none;
+  }
+
+  .user-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .user-name {
+    font-size: 16px;
+  }
+
+  .review-text {
+    font-size: 13px;
+  }
+
+  .small-view-data-username {
+    display: block;
+    color: #0096AD;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    display: block;
+  }
+}
