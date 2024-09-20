@@ -22,7 +22,7 @@
 }
 
 .download-on-app-store {
-  text-align: left;
+  text-align: right;
 }
 
 .inito-steps .description {
@@ -166,6 +166,7 @@
   .download-on-app-store {
     display: none;
   }
+  
 
   .small-view-index {
     display: block;
